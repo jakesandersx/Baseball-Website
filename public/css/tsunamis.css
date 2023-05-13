@@ -1,0 +1,46 @@
+/* set body background color to light blue */
+body {
+    background-color: #add8e6;
+}
+
+/* style the header with the team name in green */
+header {
+    background-color: #006400;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/* style the navigation links with a green background color, white text color and blue on hover */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #006400;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #add8e6;
+}
+
+footer {
+    background-color: #006400;
+    color: #f5deb3;
+    padding: 10px;
+    text-align: center;
+}
